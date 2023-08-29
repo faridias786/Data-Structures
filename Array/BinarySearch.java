@@ -12,12 +12,12 @@ public class BinarySearch {
                 return mid;
             }
             if (number[mid] < key) {
-                start = mid + 1; // Change start = start + 1; to start = mid + 1;
+                start = mid + 1; 
             } else {
-                end = mid - 1; // Change end = end - 1; to end = mid - 1;
+                end = mid - 1; 
             }
         }
-        return -1; // Return a default value indicating key not found
+        return -1; 
     }
 
     public static void main(String[] args) {
